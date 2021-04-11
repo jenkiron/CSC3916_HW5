@@ -12,7 +12,7 @@ function moviesFetched(movies) {
 function movieFetched(movie) {
     return {
         type: actionTypes.FETCH_MOVIE,
-        selectedMovie: movie[0]
+        selectedMovie: movie
     }
 }
 
